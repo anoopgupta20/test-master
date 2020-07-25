@@ -2,8 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/brainscu/public_html/
-    - /bin/cp -R images $/home/brainscu/repositories/testmaster
-    - export DEPLOYPATH=/home/brainscu/public_html/
+    - /bin/cp -R images $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     
